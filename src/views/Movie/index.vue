@@ -3,7 +3,7 @@
     <Header title="喵喵电影" />
     <div id="content">
       <div class="movie_menu">
-        <router-link tag="div" to='/movie/city' class="city_name">
+        <router-link tag="div" to="/movie/city" class="city_name">
           <span>大连</span>
           <i class="iconfont icon-lower-triangle"></i>
         </router-link>
@@ -46,12 +46,11 @@ export default {
   height: 100%;
   line-height: 45px;
 }
-.movie_menu .city_name.router-link-active {
-  margin-left: 20px;
-  height: 100%;
-  line-height: 45px;
-}
 .movie_menu .city_name.active {
+  color: #ef4238;
+  border-bottom: 2px #ef4238 solid;
+}
+.movie_menu .city_name.router-link-active {
   color: #ef4238;
   border-bottom: 2px #ef4238 solid;
 }

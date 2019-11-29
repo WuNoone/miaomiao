@@ -1,100 +1,85 @@
 <!--  -->
 <template>
-  <div id="content">
-    <div class="movie_menu">
-      <div class="city_name active">
-        <span>大连</span>
-        <i class="iconfont icon-lower-triangle"></i>
-      </div>
-      <div class="hot_swtich">
-        <div class="hot_item">正在热映</div>
-        <div class="hot_item">即将上映</div>
-      </div>
-      <div class="search_entry">
-        <i class="iconfont icon-sousuo"></i>
-      </div>
-    </div>
-    <div class="city_body">
-      <div class="city_list">
-        <div class="city_hot">
-          <h2>热门城市</h2>
-          <ul class="clearfix">
-            <li>上海</li>
-            <li>北京</li>
-            <li>上海</li>
-            <li>北京</li>
-            <li>上海</li>
-            <li>北京</li>
-            <li>上海</li>
-            <li>北京</li>
-          </ul>
-        </div>
-        <div class="city_sort">
-          <div>
-            <h2>A</h2>
-            <ul class="first-ul">
-              <li>阿拉善盟</li>
-              <li>鞍山</li>
-              <li>安庆</li>
-              <li>安阳</li>
-            </ul>
-          </div>
-          <div>
-            <h2>B</h2>
-            <ul>
-              <li>北京</li>
-              <li>保定</li>
-              <li>蚌埠</li>
-              <li>包头</li>
-            </ul>
-          </div>
-          <div>
-            <h2>A</h2>
-            <ul>
-              <li>阿拉善盟</li>
-              <li>鞍山</li>
-              <li>安庆</li>
-              <li>安阳</li>
-            </ul>
-          </div>
-          <div>
-            <h2>B</h2>
-            <ul>
-              <li>北京</li>
-              <li>保定</li>
-              <li>蚌埠</li>
-              <li>包头</li>
-            </ul>
-          </div>
-          <div>
-            <h2>A</h2>
-            <ul>
-              <li>阿拉善盟</li>
-              <li>鞍山</li>
-              <li>安庆</li>
-              <li>安阳</li>
-            </ul>
-          </div>
-          <div>
-            <h2>B</h2>
-            <ul>
-              <li>北京</li>
-              <li>保定</li>
-              <li>蚌埠</li>
-              <li>包头</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="city_index">
-        <ul>
-          <li>A</li>
-          <li>B</li>
-          <li>C</li>
-          <li>D</li>
-          <li>E</li>
+  <div class="city_body">
+    <div class="city_list">
+      <div class="city_hot">
+        <h2>热门城市</h2>
+        <ul class="clearfix">
+          <li>上海</li>
+          <li>北京</li>
+          <li>上海</li>
+          <li>北京</li>
+          <li>上海</li>
+          <li>北京</li>
+          <li>上海</li>
+          <li>北京</li>
         </ul>
       </div>
+      <div class="city_sort">
+        <div>
+          <h2>A</h2>
+          <ul>
+            <li>阿拉善盟</li>
+            <li>鞍山</li>
+            <li>安庆</li>
+            <li>安阳</li>
+          </ul>
+        </div>
+        <div>
+          <h2>B</h2>
+          <ul>
+            <li>北京</li>
+            <li>保定</li>
+            <li>蚌埠</li>
+            <li>包头</li>
+          </ul>
+        </div>
+        <div>
+          <h2>A</h2>
+          <ul>
+            <li>阿拉善盟</li>
+            <li>鞍山</li>
+            <li>安庆</li>
+            <li>安阳</li>
+          </ul>
+        </div>
+        <div>
+          <h2>B</h2>
+          <ul>
+            <li>北京</li>
+            <li>保定</li>
+            <li>蚌埠</li>
+            <li>包头</li>
+          </ul>
+        </div>
+        <div>
+          <h2>A</h2>
+          <ul>
+            <li>阿拉善盟</li>
+            <li>鞍山</li>
+            <li>安庆</li>
+            <li>安阳</li>
+          </ul>
+        </div>
+        <div>
+          <h2>B</h2>
+          <ul>
+            <li>北京</li>
+            <li>保定</li>
+            <li>蚌埠</li>
+            <li>包头</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="city_index">
+      <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -132,9 +117,7 @@ export default {
   background: #f0f0f0;
   font-weight: normal;
 }
-.first-ul{
-  margin-top: 100px !important;
-}
+/* .city_body .city_hot ul{} */
 .city_body .city_hot ul li {
   float: left;
   background: #fff;
@@ -149,6 +132,7 @@ export default {
   text-align: center;
   box-sizing: border-box;
 }
+/* .city_body .city_sort{} */
 .city_body .city_sort div {
   margin-top: 20px;
 }
